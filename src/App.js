@@ -1,5 +1,5 @@
-
-import './App.css';
+import React from 'react';
+import Title from './comps/Title';
 
 function App() {
   return(
