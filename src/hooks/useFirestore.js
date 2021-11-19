@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { projectFirestore } from "../Firebase/exapmle_config";
+import { projectFirestore } from "../Firebase/config";
 
 const useFirestore = (collection) => {
     const [docs, setDocs] = useState([]);
@@ -20,3 +20,5 @@ const useFirestore = (collection) => {
 
     return { docs };
 }
+
+export default useFirestore;
