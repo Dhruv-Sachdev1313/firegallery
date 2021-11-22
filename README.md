@@ -23,50 +23,27 @@
 
 - Firebase project setup
     - Create an app on firebase
-    - Follow the official guide for android and ios to integrate with the flutter app
-    - Download `firebase_key.json` (yes, rename it to firebase_key.json) and paste it in `web/env`
-    - Create a `.env` file in the same (`web/env`) folder with the following contents:
+    - Setup firebase storage and firestore.
+    - creacte a new file in the directory `src/Firebase/` named `config.js` and paste your firebase credentials there.
+    *(PS: refer to the file `src/Firebase/example_config.js`*
         - ```
             # leave firebase_key as it is
             firebase_key=env/firebase_key.json
             firebase_route=<YOUR-FIREBASE-ROUTE>
             ```
 
-#### Backend and Hospital Web App
+### React App
 
-- ```sh 
-        # First let's install the dependencies
-        cd backend
-        pip install -r requirements.txt
-        # Now let's start our db server
-        python fb_db.py
-        # Finally, the web app
-        python run.py
-    ```
-
-- Now, after successfully running the db server, you'll see `{"status": "fine"}` messagge on `http://127.0.0.1:8080`
-
-- And once the flask app starts, please visit `http://127.0.0.1:5000/`, after login, you'll see a dashboard as follows:
-    <img src='static/web_app.png'>
-
-
-### Flutter App
-
-- The base directory is `app/swasthyaloop`
-- Open the folder in any ide of your choice, connect your phone/emulator and run the `main.dart` file.
-
+- Run the command `npm install`  
 *PS: Grab a cup of coffee, it takes some time to build*
+- Now to run the application on local server, run `npm start`
 
-- Once the app is built successfully, you'll see a welcome screen and post login:
-<p  align = "center">
- <table>
-   <tr>
-    <td><img src="static/app_screen_1.jpg" width=270 height=480></td>
-    <td><img src="static/app_screen_2.jpg" width=270 height=480></td>
-    <td><img src="static/app_screen_3.jpg" width=270 height=480></td>
-  </tr>
-</table>
-</p>
+
+- It will start the development server and voila you are good to go.  
+<img src="screenshot/1.png" width=480 height=270>  
+<img src="screenshot/2.png" width=480 height=270>  
+<img src="screenshot/3.png" width=480 height=270>  
+
 
 <hr>
 
