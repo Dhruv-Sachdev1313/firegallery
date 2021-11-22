@@ -47,25 +47,8 @@
 
 <hr>
 
-### Contributors
-- [Dhruv-Sachdev1313](https://github.com/Dhruv-Sachdev1313)
-- [Harshita-Kanal](https://github.com/Harshita-Kanal)
-- [shintan777](https://github.com/shintan777/)
--  [ADI10HERO](https://github.com/adi10hero/)
-
-<hr>
-
-## Recognition
-This repository/project is a submission to [DSC Solution Challenge 2021](https://developers.google.com/community/dsc-solution-challenge).
-
-## References
-- [Hospital Capacity and Availability Info](https://arogya.maharashtra.gov.in/pdf/Cat%20I%20Facility%2020%20March%202021.pdf) 
-- List of Prominent Hospitals in Mumbai, i.e. Our [Hospital Dataset](https://arogya.maharashtra.gov.in/1166/List-of-Prominent-Hospitals-in-Mumbai?format=print)
-- [Flutter App UI Motivation](https://github.com/mlayah/healthapp_ui)
-- [Jinja Material Lite Wpx](https://appseed.us/jinja-template/jinja-template-material-lite)
-
 <center>
 <footer>
-Made with ❤️ by Team <strong>Change Makers</strong>
+Made with ❤️
 </footer>
 </center>
